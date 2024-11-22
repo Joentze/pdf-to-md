@@ -99,7 +99,7 @@ async def convert_image_into_md(image_b64: str) -> str:
                 "content": [
                     {
                         "type": "text",
-                        "text": "Extract the contents of this image, be as descriptive as possible. Ignore logos. If there are diagrams explain it",
+                        "text": "Extract the contents of this image, be as accurate as possible, word for word, no preamble. Ignore logos. If there are diagrams explain it",
                     },
                     {
                         "type": "image_url",
